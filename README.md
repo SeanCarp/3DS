@@ -64,7 +64,7 @@ Removing MSET9 will prevent future crashes in the future.
 
 We will now be installing the big stuff
 
-## I. Prep Work
+## V. Prep Work
 1. Power off your console
 2. Insert your SD card into your computer
 3. Copy `finalize.romfs` to the root fo your SD card
@@ -72,4 +72,31 @@ We will now be installing the big stuff
 5. Copy `finalize_helper.firm` to the `payloads` folder
 6. Insert SD card into console
 
-7. 
+## VI. Updating the System
+1. Update your console `System Settings -> Other Settings -> System Update`
+
+## VII. RTC and DSP setup
+1. Press (Left Shoulder) + (D-Pad Down) + (Select) combo to open the Rosalia menu
+2. Select "Miscellaneous options"
+3. Select "Dump DSP firmware"
+4. Press (B) to continue
+5. Select "Nullify user time offset"
+6. Press (B) to continue
+7. Press (B) to return to the Rosalina main menu
+8. Press (B) to exit the Rosalina menu
+
+## VI. Setup Script
+1. Power off your console
+2. Press and hold (Start), and power on your console. (This should launch the finalizing Setup Helper)
+3. If the Helper was successful, your console will boot into GodMode9
+4. If you are promoted to create an essential files backup, press (A) to do so, then set the date and time, then press (A) to continue
+5. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
+6. Press (Home) to bring up the action menu
+7. Select "Scripts..."
+8. Select "finalize"
+9. Follow the prompts in the script, answering any questions that you are asked
+10. Once the scripts says "Setup complete!", press (A) to power off the device
+11. Insert your SD card into your computer
+12. Copy the `/gm9/backups/` folder to a safe location on your computer
+
+You're Done! all of your custom firmware on configured on your console!
