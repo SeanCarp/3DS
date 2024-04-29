@@ -18,5 +18,5 @@ To make sure that your 3DS is up to date
 ## Installing boot9strap (MSET9)
 **Requirements:**
 Make sure that Python 3 is installed on your computer.
-Download the MSET9 file in this repo, if [MSET9}(https://github.com/zoogie/MSET9/releases/tag/v1.2) no longer works.
+Download the MSET9 file in this repo, if [MSET9](https://github.com/zoogie/MSET9/releases/tag/v1.2) no longer works.
 
